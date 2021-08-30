@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'; //react robot is in here
+import ReactDOM from 'react-dom'; //minipulate react
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
+import App from './containers/App';
+
+// import CardList from './CardList.js';
+// import { robots } from './robot.js';
+import './index.css';
+// import Hello from './Hello.js';
+// import Card from './Card.js';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
     <App />
-  </React.StrictMode>,
+    {/* <CardList robots={robots}/> */}
+  </>,
   document.getElementById('root')
 );
 
